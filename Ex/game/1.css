@@ -1,0 +1,159 @@
+*{margin:0;padding:0; }
+
+.navbar-header img {
+    width: 10%;
+}
+
+.nenxam h2 {
+    color: #6C0E11;
+}
+
+div#About {
+    padding: 1px;
+    background: rgba(114, 121, 120, 0.24);
+}
+
+.nantrang a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+a {
+    -webkit-font-size-delta: 11px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nenxam a {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+button.btn.btn-default {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.chuky small {
+    color: rgba(128, 128, 128, 0.75);
+}
+
+.nenanh2 h1 {
+    font-weight: 900;
+    font-size: 46px;
+    text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.53);
+    color: #F8BE73;
+}
+
+h1 {}
+
+.nenxam h4 {font-style: italic;line-height: 24px;margin: auto;font-weight: 700;}
+
+.nantrang h4 {
+    padding-top: 28px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.nantrang h4 {
+    margin: auto;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.nantrang h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: gainsboro;
+}
+
+.nenxam h4 {
+    padding-top: 27px;
+    font-size: 18px;
+}
+
+h2 {}
+
+hr.nganthoi {
+    background: #060606;
+    width: 50%;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 10px;
+}
+
+.nenxam h2 {
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.nenanh h1 {
+    font-size: 58px;
+    font-weight: 800;
+    text-shadow: 2px 0 2px rgba(0, 0, 0, 0.77);
+}
+
+.navbar-default {
+    margin-bottom: 0px;
+}
+
+.nenanh {
+    padding-top: 230px;
+    padding-bottom: 280px;
+    color: white;
+    background: url(http://i.imgur.com/zuUz6pZ.jpg) center center;
+    background-size: cover;
+}
+
+.nenanh h3 {
+    font-size: 28px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.83);
+    font-weight: 500;
+}
+ 
+
+ body {font-family: 'Alegreya', serif;
+}
+
+img.img-responsive {
+    border-radius: 15%;
+    border: solid 2px gray;
+}
+
+.chuky {
+    padding-bottom: 40px;
+}
+
+.menutrai li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    padding-top: 30px;
+    font-size: 13px;
+    padding-bottom: 23px;
+}
+
+.nenanh2 {
+    padding: 120px 0;
+    background: url(images/meepo_dota_2_wallpaper_by_css101-d6fwaio.jpg) no-repeat center center;
+    color: white;
+    font-weight: 700;
+    background-size: cover;
+}
+
+.col-xs-5.col-sm-5.col-md-5.col-lg-5.cotphai {
+    margin-top: 30px;
+}
+
+.nantrang {
+    padding: 48px;
+    background-size: cover;
+    background: url(images/dota_2___nature_s_prophet_by_sheron1030-d7uiwv9.jpg) no-repeat center center;
+}
+
+.nenxam {
+    padding: 48px 0;
+    background: url(images/jakiro_dota_2_wallpaper_by_css101-d6f42au.jpg) no-repeat center center;
+    background-size: cover;
+}

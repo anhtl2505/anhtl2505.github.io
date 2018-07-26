@@ -1,0 +1,269 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.khunganh3 .xam {
+    opacity: 0;
+    z-index: 2;
+    width: 400px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+}
+
+.khunganh3:hover .xam {
+    opacity: 1;
+}
+
+body {
+    background: #2F3238;
+}
+
+.dong1 {
+    margin: 50px;
+}
+
+.khunganh2 span {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.khunganh1 span {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.khunganh2:hover .thanh2 {
+    transform: rotate(-45deg);
+}
+
+.khunganh2 .chunho {
+    padding: 0px 40px;
+}
+
+.thanh1, .thanh2 {
+    width: 350px;
+    height: 1px;
+    background: white;
+    position: absolute;
+    top: 160px;
+    z-index: 3;
+    left: 25px;
+    transform: rotate(0deg);
+    transition: 0.2s;
+}
+
+.khunganh2:hover .thanh1 {
+    transform: rotate(45deg);
+}
+
+.xanh {
+    width: 400px;
+    height: 300px;
+    background: rgba(48, 133, 163, 0.34);
+    transition: 0.4s;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    opacity: 0;
+}
+
+.khunganh2:hover .xanh {
+    opacity: 1;
+}
+
+img.img-responsive.layer2 {
+    height: 300px;
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+
+.khunganh2:hover img.img-responsive.layer2 {
+    transform: scale(1);
+}
+
+.khunganh1:hover .mausac {
+    opacity: 0.5;
+}
+
+.khunganh1:hover .xam {
+    opacity: 0;
+}
+
+.khunganh1:hover .hinhvuong {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.khunganh1:hover .chunho {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.chunho {
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    color: white;
+    width: 77%;
+    z-index: 5;
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    opacity: 0;
+    transform: scale(0);
+}
+
+.khunganh3 .chunho {
+    top: 78%;
+    font-size: 14px;
+    z-index: 5;
+}
+
+
+.khunganh2:hover .chunho {
+    opacity: 1;
+    transform: scale(1);
+    text-align: center;
+    top: 55%;
+    font-size: 15px;
+    width: 111%;
+    left: -4%;
+    transform: translateY(5px);
+}
+
+.chuto {
+    font-size: 30px;
+    font-family: segoe ui light;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    z-index: 3;
+    color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.4s;
+    top: 30%;
+}
+
+
+.khunganh2:hover .chuto {
+    transform: translateY(20px);
+}
+
+.khunganh1:hover .chuto {
+    transform: translateY(-40px);
+}
+
+.hinhvuong {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    left: 9%;
+    border: 2px solid white;
+    transition: 0.4s;
+    opacity: 0;
+    transform: scale(0);
+}
+
+.mausac {
+    width: 400px;
+    height: 300px;
+    background-image: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.khunganh1 .xam {
+    width: 400px;
+    height: 300px;
+    background: rgba(90, 93, 99, 0.51);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    transition: 0.4s;
+}
+
+img.img-responsive.layer1 {
+    height: 300px;
+}
+
+.khunganh1 {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+
+.khunganh1:hover {
+    cursor: pointer;
+}
+.khunganh2 {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 20px;
+}
+
+.khunganh2:hover {
+    cursor: pointer;
+}
+
+
+
+
+img.demoanh {
+    background: lightblue;
+    padding: 70px 120px;
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+}
+.khunganh3 {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 20px;
+}
+
+.khunganh3 .chuto {
+    color: #484C61;
+    top: 50%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 3;
+}
+
+.khunganh3:hover .chuto {
+    transform: translateY(-50px);
+    color: white;
+}
+
+.khunganh3 span {
+    font-weight: 800;
+}
+
+.khunganh3:hover .chunho {
+    opacity: 1;
+    transform: translateY(0px);
+}
