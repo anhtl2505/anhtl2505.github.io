@@ -1,25 +1,65 @@
 *{margin: 0; padding: 0;}
 
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.local {
+    height: 100%;
+    border: solid gray 1px;
+}
+
+.edu {
+    background: url(images/sky.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    padding-bottom: 25px;
+}
+
+.xam {
+    opacity: 0;
+    z-index: 2;
+    width: 100%;
+    height: 98%;
+    top: 117px;
+    left: 0;
+    position: absolute;
+    background: -webkit-linear-gradient(top,rgba(72,76,97,0)0%,rgba(72,76,97,0.8) 75%);
+    transition: 1s;
+}
+
+.xam:hover {
+    opacity: 1;
+}
+
+a.btn.btn-default.nutdown {
+    margin-top: 25px;
+}
+
 body {
-	font-family: "segoe ui";
+    font-family: "segoe ui";
+}
+
+.nuthire.btn-default.btn.btn-primary:hover {
+    background-color: #E6E6E6;
 }
 
 h1{
-	text-align: center;
+    text-align: center;
 }
 
 html,body {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 li.nav-item{
-	display: inline;
-	margin: 0 0;
+    display: inline;
+    margin: 0 0;
 }
 
 a.nav-link{
-	line-height: 27px;
-	display: inline!important;
+    line-height: 27px;
+    display: inline!important;
 }
 
 nav.navbar.navbar-light.bg-faded {
@@ -28,18 +68,19 @@ nav.navbar.navbar-light.bg-faded {
 }
 
 a.navbar-brand {
-	display:block;
-	width: 100%;
-	text-align: center;
+    display:block;
+    width: 100%;
+    text-align: center;
 }
 
 .khoitren {
-	width: 100%;
-	height:100%;
-	background-color: #0A0C17;
+    width: 100%;
+    height:100%;
+    background: url(images/laptop.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
 }
 
-.khoitren:before {
+/* .khoitren:before {
     content: "";
     position: absolute;
     left: 0;
@@ -48,7 +89,7 @@ a.navbar-brand {
     background-color: #333333;
     z-index: 1;
 }
-
+ */
 .avatar {
     z-index: 2;
     position: relative;
@@ -58,27 +99,52 @@ a.navbar-brand {
 
 .khoitren img {
     border-radius: 50%;
-    width: 30%;
+    width: 12%;
+    border: none;
 }
 
-h2 {text-transform: uppercase;padding-top: 9px;font-size: 35px;}
+h2 {text-transform: uppercase;padding-top: 9px;font-size: 30px;font-weight: lighter;color: black;}
 
 p {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 32px;
     margin: auto;
     margin-bottom: 28px;
+    color: black;
+    font-weight: 500;
 }
+
+.about p {
+    margin: auto;
+    margin-bottom: 20px;
+    color: black;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+.footer1 p {
+    color: white;
+}
+
+.footer2 p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.khoitren h2 {font-weight: 600;}
 
 .nuthire.btn-default.btn.btn-primary {
     width: 180px;
-    background-color: #fb0202d9;
-    border: none;
+    background-color: white;
     border-radius: 20px;
+    color: black;
+    border: none;
+    transition: 0.5s;
 }
 
 .menutop img {
-    width: 15%;
+    width: 9%;
     float: left;
 }
 
@@ -100,6 +166,8 @@ span.motaqt1 {
     text-align: right;
     margin: auto;
     float: right;
+    color: #ED0318;
+    font-weight: bold;
 }
 
 .cot1_3 p {
@@ -110,7 +178,7 @@ span.motaqt1 {
 h3.tieude3 {
     margin: auto;
     padding-bottom: 20px;
-    padding-top: 3px;
+    padding-top: 21px;
 }
 
 img.doc {
@@ -121,5 +189,176 @@ img.doc {
     padding-top: 34px;
     height: 910px;
     border: none;
-    border-radius: 35%;
+    border-radius: 50%;
+}
+
+.xuong {
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    border: white solid 1px;
+    border-radius: 40px;
+    bottom: -15%;
+    margin-left: -15px;
+    transition: 1s;
+    z-index: 2;
+}
+.xuong:hover {
+    bottom: -7%;
+}
+
+.xuong:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 10px;
+    background: white;
+    left: 50%;
+    bottom: 66%;
+    margin-left: -2px;
+}
+.dam{
+    font-weight: bold;
+}
+
+.motaqt2 {
+  font-weight: bold;
+  color: #ED0318;
+  float: left;
+  text-align: left;
+}
+
+.contact .ngoisao {
+    border-color: #333333;
+}
+
+.portfolio .ngoisao {
+    border-color: #333333;
+}
+
+
+.footer2 {
+    background: #233140;
+    color: white;
+    padding: 13px;
+    font-size: 19px;
+}
+
+.footer1 li {
+    float: none;
+    list-style: none;
+    display: inline;
+}
+
+.footer1 li a {
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-rendering: auto;
+    margin: 0 10px;
+    height: 40px;
+    width: 39px;
+    padding: 12px;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.footer1 li {
+    text-align: center;
+}
+
+.footer1 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer1 {
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    background: url(images/star1.jpg) no-repeat center center fixed;
+}
+
+.footer1 ul li a:hover {
+    background: white;
+    color: #18BC9C;
+}
+
+
+input.form-control {
+    border: 0px solid;
+    box-shadow: 0 0 0 transparent;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 30px 5px;
+    display: block;
+    color: #ACB6C0;
+    font-size: 22px;
+    border: none;
+}
+
+.ngoisao i.fa.fa-star {
+    width: 36px;
+    height: 40px;
+    background: url(images/3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    position: relative;
+    top: -21px;
+    line-height: 40px;
+    font-size: 27px;
+    color: black;
+    border-color: black;
+}
+
+.ngoisao {
+    width: 26%;
+    margin: auto;
+    border-top: 3px solid black;
+    margin-top: 39px;
+}
+
+.portfolio .ngoisao i.fa.fa-star, .contact .ngoisao i.fa.fa-star {
+    background: url(images/blue.jpg) no-repeat center center fixed;
+    color: #333333;
+    border-radius: 50%;
+    -webkit-background-size: cover;
+}
+
+.contact h2 {text-transform: uppercase;font-size: 43px;font-weight: bold;margin: auto;padding-top: 20px;}
+
+button.btn.btn-primary:hover {
+    background: #128F76;
+}
+
+button.btn.btn-primary {
+    padding: 11px 9px;
+    background: #18BC9C;
+    margin: 16px;
+    border: none;
+}
+
+.contact {
+  background: url(images/blue.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+}
+
+.about h2 {
+    color: black;
+}
+
+.about h2 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.about {
+    background: url(images/3.jpg) no-repeat center center fixed;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    -webkit-background-size: cover;
 }
