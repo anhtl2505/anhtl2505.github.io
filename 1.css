@@ -1,5 +1,9 @@
 *{margin: 0;padding: 0;}
 
+body,html{
+    font-family: 'Bree Serif', serif;
+}
+
 .four h4 {
     text-align: center;
 }
@@ -87,10 +91,9 @@ ul {
     background: white;
     box-shadow: 1px 2px 7px #0a080a;
     margin-bottom: 25px;
-    position: absolute;
-    right: 0px;
+    
     width: 30%;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 .col-md-4.two {
@@ -101,10 +104,12 @@ ul {
     box-shadow: 1px 2px 7px #0a080a;
     margin-right: 25px;
     margin-bottom: 25px;
+    width: 30%;
 }
 
 
 .col-md-4.one {
+    width: 33%;
     padding: 19px;
     border: solid 1px #e7dada;
     border-radius: 10px;
@@ -214,16 +219,16 @@ h1 {
 }
 
 
-i.fab.fa-gitkraken {font-size: xx-large;margin: auto;margin-left: 47%;margin-top: 13%;}
+i.fab.fa-gitkraken {font-size: xx-large;margin: auto;margin-left: 277px;margin-top: 75px;}
 
 .khung {
     border: 1px solid;
     color: white;
     width: 600px;
-    height: 399px;
+    height: 400px;
     position: absolute;
-    left: 28%;
     top: 10%;
+    margin-left: 28%;
 }
 
 .bieutuong {
@@ -267,12 +272,12 @@ i.fab.fa-gitkraken {font-size: xx-large;margin: auto;margin-left: 47%;margin-top
 }
 
 hr {
-  margin-top: 11px;
+  margin-top: 12px;
   margin-bottom: 20px;
   border: 0;
   border-top: 2px solid #eee;
-  width: 24%;
-  margin-left: 38%;
+  width: 60%;
+  margin-left: 20%;
 }
 
 .mouse-icon {
@@ -284,8 +289,8 @@ hr {
   position: relative;
   text-align: center;
   margin: 0 auto;
-  display: block; 
-  top: 30%;
+  display: block;
+  top: 560px;
 }
 
 .mouse-wheel {
@@ -313,4 +318,8 @@ hr {
   .container {
     width: 1265px;
   }
+
+.container.skills {
+    width: 100%;
+}
 }
