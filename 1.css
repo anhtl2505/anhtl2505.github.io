@@ -314,21 +314,3 @@ hr {
     width: 1265px;
   }
 }
-
-@media(max-width: 768px){
-    .col-md-4.three {
-    padding: 15px;
-    border: solid 1px #e7dada;
-    border-radius: 10px;
-    background: white;
-    box-shadow: 1px 2px 7px #0a080a;
-    margin-bottom: 25px;
-    position: absolute;
-    right: 0px;
-    width: 75%;
-    margin-right: 20px;
-}
-
-
-
-}
