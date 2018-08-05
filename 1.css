@@ -286,11 +286,12 @@ hr {
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 15px;
   cursor: pointer;
-  position: relative;
+  position: absolute;
   text-align: center;
   margin: 0 auto;
   display: block;
-  top: 560px;
+  top: 510px;
+  margin-left: 280px;
 }
 
 .mouse-wheel {
