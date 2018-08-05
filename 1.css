@@ -4,6 +4,55 @@ body,html{
     font-family: 'Bree Serif', serif;
 }
 
+.khung4 {
+    position: absolute;
+    bottom: -1em;
+    left: 0em;
+    content: '';
+    width: 2px;
+    height: 250px;
+    background: #FFF;
+    opacity: 0.5;
+}
+
+.khung3 {
+    position: absolute;
+    bottom: -1em;
+    left: 0em;
+    content: '';
+    width: 250px;
+    height: 2px;
+    background: #FFF;
+    opacity: .5;
+}
+
+.khung2 {
+    background: #FFF;
+    position: absolute;
+    top: 35px;
+    right: 9px;
+    bottom: 0;
+    content: "";
+    width: 2px;
+    height: 250px;
+    opacity: 0.5;
+}
+
+.khung1 {
+    background: #FFF;
+    position: absolute;
+    top: 35px;
+    right: 9px;
+    bottom: 0;
+    content: "";
+    width: 250px;
+    height: 2px;
+    opacity: 0.5;
+}
+
+.khung1:after {
+}
+
 .four h4 {
     text-align: center;
 }
@@ -222,13 +271,12 @@ h1 {
 i.fab.fa-gitkraken {font-size: xx-large;margin: auto;margin-left: 277px;margin-top: 75px;}
 
 .khung {
-    border: 1px solid;
-    color: white;
     width: 600px;
     height: 400px;
     position: absolute;
     top: 10%;
     margin-left: 28%;
+    color: white;
 }
 
 .bieutuong {
