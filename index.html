@@ -32,15 +32,15 @@
 				<hr>
 				SYSTEM ADMINISTRATOR</h1>
 				<div class="bieutuong">
-								<button type="button" class="btn btn-default">
+								<button type="button" onclick="openweb1()" class="btn btn-default">
 									<a href="https://www.facebook.com/ToF.zNin"><b class="fab fa-facebook-f"></a></b>
 									Facebook
 								</button>
-								<button type="button" class="btn btn-default">
+								<button type="button" onclick="openweb2()" class="btn btn-default">
 									<a href="https://github.com"><b class="fab fa-github"></a></b>
 									Github
 								</button>
-								<button type="button" class="btn btn-default">
+								<button type="button" onclick="openweb3()" class="btn btn-default">
 									<a href="https://www.linkedin.com/in/tr%E1%BA%A7n-l%C6%B0u-anh-880304118/"><b class="fab fa-linkedin-in"></a></b>
 									Linkedin
 								</button>
@@ -53,6 +53,21 @@
 	
 </div>  <!-- END 1 -->
 
+<script>
+function openweb1() {
+    window.open("https://www.facebook.com/ToF.zNin");
+}
+function openweb2() {
+    window.open("https://github.com");
+}
+function openweb3() {
+    window.open("https://www.linkedin.com/in/tr%E1%BA%A7n-l%C6%B0u-anh-880304118/");
+}
+function openweb4() {
+    window.open("CV/CV_TranLuuAnh.pdf");
+}
+</script>
+
 
 <div class="hinhnen2">
 	<div class="noidung2">
@@ -64,7 +79,7 @@
 	<div class="container about">
 		<div class="col-md-3">
 			<div class="khunghinh">
-			<img src="images/a1.jpg" class="img-responsive" alt="">
+			<img src="images/cat.jpg" class="img-responsive" alt="">
 			</div>
 		</div>
 		<div class="col-md-6 content">
@@ -74,7 +89,7 @@
 					<hr>
 					After 4 years at university. Now I looking for my job.<br> In addition to my majors, I am interested in web design. Especially font-end, design interface for website. I like helping other and work well with group. <br>Seek a dynamic working environment and do not be too professional.Desire to improve and expand my knowledge.</p>
 
-					<button type="button" class="btn btn-default cv">
+					<button type="button" onclick="openweb4()" class="btn btn-default cv">
 							<a href="CV/CV_TranLuuAnh.pdf"><b class="fas fa-cloud-download-alt"> My CV</a></b>
 							
 					</button>
