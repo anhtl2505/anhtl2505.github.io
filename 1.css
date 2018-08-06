@@ -1,5 +1,12 @@
 *{margin: 0;padding: 0;}
 
+.col-md-6.content {
+}
+
+.col-md-3 {
+    margin-top: 25px;
+}
+
 body,html{
     font-family: 'Bree Serif', serif;
 }
@@ -140,9 +147,8 @@ ul {
     background: white;
     box-shadow: 1px 2px 7px #0a080a;
     margin-bottom: 25px;
-    
-    width: 30%;
-    margin-right: 5px;
+    margin-left: 25px;
+    width: 400px;
 }
 
 .col-md-4.two {
@@ -151,21 +157,21 @@ ul {
     border-radius: 10px;
     background: white;
     box-shadow: 1px 2px 7px #0a080a;
-    margin-right: 25px;
+    margin-left: 25px;
     margin-bottom: 25px;
-    width: 30%;
+    width: 400px;
 }
 
 
 .col-md-4.one {
-    width: 33%;
+    width: 400px;
     padding: 19px;
     border: solid 1px #e7dada;
     border-radius: 10px;
     background: white;
     box-shadow: 1px 2px 7px #0a080a;
-    margin-right: 25px;
     margin-bottom: 25px;
+    margin-left: 25px;
 }
 
 .noidung4 h1 {
@@ -204,6 +210,7 @@ ul {
 
 .col-md-3.contact {
     margin: auto;
+    margin-top: 25px;
 }
 
 .col-md-3.contact {
@@ -225,6 +232,7 @@ body {
     border-radius: 10px;
     background: white;
     box-shadow: 1px 2px 7px #0a080a;
+    margin-top: 25px;
 }
 
 img.img-responsive {
@@ -275,7 +283,7 @@ i.fab.fa-gitkraken {font-size: xx-large;margin: auto;margin-left: 277px;margin-t
     height: 400px;
     position: absolute;
     top: 10%;
-    margin-left: 28%;
+    left: 386px;
     color: white;
 }
 
@@ -364,9 +372,44 @@ hr {
     margin-top: 20px;
     opacity: 0; } }
 
-@media (min-width: 1230px) {
-  .container {
-    width: 1265px;
+@media (max-width: 768px) {
+    .khung{
+        width: 323px;
+        margin: auto;
+        text-align: center;
+        left: 50px;
+        padding: 10px;
+    }
+    .noidung1.text-center h1 {
+    font-size: 28px;
+    }
+
+    .mouse-icon{
+    position: absolute;
+    margin-left: 43%;
+    }
+    
+      i.fab.fa-gitkraken{
+      margin: auto;
+      margin-top: 80px;
+      }
+
+        
+    .col-md-4.one{
+        width: 305px;
+    }
+    .col-md-4.two{
+        width: 305px;
+        
+    }
+    .col-md-4.three{
+        width: 305px;
+        
+    }
+
+
+
+
   }
 
 .container.skills {
