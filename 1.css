@@ -1,14 +1,14 @@
 *{margin: 0;padding: 0;}
 
-.noidung9 p {
+.hinhnen10 p {
+    position: fixed;
+    bottom: 0;
 }
 
 .noidung9 h4 {
     text-align: center;
 }
 
-.col-md-6.content {
-}
 
 .col-md-3 {
     margin-top: 25px;
@@ -16,6 +16,7 @@
 
 body,html{
     font-family: 'Bree Serif', serif;
+    overflow: auto;
 }
 
 .khung4 {
@@ -64,8 +65,6 @@ body,html{
     opacity: 0.5;
 }
 
-.khung1:after {
-}
 
 .four h4 {
     text-align: center;
