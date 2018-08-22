@@ -1,5 +1,13 @@
 *{margin: 0;padding: 0;}
 
+.hinhnen .container {
+    display: flex;
+}
+
+.container.skills {
+    display: flex;
+}
+
 .hinhnen10 p {
     position: fixed;
     bottom: 0;
@@ -178,7 +186,7 @@ ul {
     background: white;
     box-shadow: 1px 2px 7px #0a080a;
     margin-bottom: 25px;
-    margin-left: 25px;
+    margin: auto;
     width: 400px;
 }
 
@@ -188,9 +196,9 @@ ul {
     border-radius: 10px;
     background: white;
     box-shadow: 1px 2px 7px #0a080a;
-    margin-left: 25px;
     margin-bottom: 25px;
     width: 400px;
+    margin: auto;
 }
 
 
@@ -202,7 +210,7 @@ ul {
     background: white;
     box-shadow: 1px 2px 7px #0a080a;
     margin-bottom: 25px;
-    margin-left: 25px;
+    margin: auto;
 }
 
 .noidung4 h1 {
@@ -307,15 +315,18 @@ h1 {
 }
 
 
-i.fab.fa-gitkraken {font-size: xx-large;margin: auto;margin-left: 277px;margin-top: 75px;}
+i.fab.fa-gitkraken {font-size: xx-large;margin: auto;margin-left: 265px;margin-top: 75px;}
 
 .khung {
-    width: 600px;
+    width: 52%;
+    content: "";
     height: 400px;
-    position: absolute;
-    top: 10%;
-    left: 386px;
     color: white;
+    margin: auto;
+    z-index: 3;
+    display: block;
+    position: relative;
+    margin-top: -50%;
 }
 
 .bieutuong {
@@ -355,7 +366,7 @@ i.fab.fa-gitkraken {font-size: xx-large;margin: auto;margin-left: 277px;margin-t
     height: 641px;
     width: auto;
     display: block;
-    background: url(images/lt2.jpg);
+    background: url(images/lt2.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -447,4 +458,10 @@ hr {
 .container.skills {
     width: 100%;
 }
+}
+
+@media (min-width:1281px) { 
+    .khung  {
+        left: 47%;
+    }
 }
